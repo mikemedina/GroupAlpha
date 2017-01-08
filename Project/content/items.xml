@@ -1,0 +1,6 @@
+<items gfxroot="gfx/items/" version="1">
+  <active description="Sure hope nobody pulls the plug!" gfx="collectibles_lifeline.png" maxcharges = "6" name="Lifeline" />
+  <passive description="Stress just changes me, ok?" gfx="collectibles_addicted.png" name = "Addicted" />
+  <passive description="Read the fine print." cache="damage flying" gfx="collectibles_satancontract.png" name="Satan's Contract" />
+  <passive description="Personal pushover." gfx="collectibles_stonedbuddy.png" name="Stoned Buddy" />
+</items>
