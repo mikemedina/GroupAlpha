@@ -9,7 +9,7 @@ Empty line between end and next command if next command isn't another end
 
 Example:
 
-function helloWorld()
+```function helloWorld()
   local Player = Isaac:GetPlayer(0)
   for i = 1, 10 do
     print("Hi")
@@ -21,4 +21,4 @@ function helloWorld()
   if Player == EntityType.ENTITY_BLOAT then
     print("WTF")
   end
-end
+end```
