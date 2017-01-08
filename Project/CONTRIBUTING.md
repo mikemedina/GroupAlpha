@@ -1,6 +1,7 @@
 #Code Style Guide
 
 - Let's try to make everything look fairly clean.
+- Send code in the form of pull requests so that it can be reviewed before it is merged
 - Classes (like an EntityPlayer returned from GetPlayer()) should be PascalCase
 - Functions should be camelCase
 - Indentation for anything that ends with an end.
