@@ -28,3 +28,17 @@ function helloWorld()
     end
 end
 ```
+
+Consider wrapping and commenting function parameters if they're numerous and ambiguous:
+
+```
+Isaac.RenderText(
+    "Hit Count:" .. hitcount, -- text
+    118, -- x
+    5,   -- y
+    255, -- r
+    0,   -- g
+    0,   -- b
+    255  -- opacity
+)
+```
