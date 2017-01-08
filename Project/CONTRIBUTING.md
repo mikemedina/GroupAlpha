@@ -6,15 +6,16 @@
 - Indentation for anything that ends with an end.
 - Spaces after each , and before and after operators (where applicable)
 - Empty line between end and next command if next command isn't another end
+- Variables should be lowercase with underscores between words.
 
 Example:
 
 ```
 function helloWorld()
   local Player = Isaac:GetPlayer(0)
-  for i = 1, 10 do
+  for my_potato = 1, 10 do
     print("Hi")
-    if i == 10 then
+    if my_potato == 10 then
       print("Hello, world!")
     end
   end
